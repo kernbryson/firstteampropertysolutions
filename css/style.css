@@ -32,10 +32,12 @@ h5 {
 p {
 	font-size: 15px;
 }
-p.intro {
+ul.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
+
 }
+
 a {
 	color: #1f386e;
 	font-weight: 400;
@@ -60,6 +62,21 @@ hr {
 	background: #1E7A46;
 	margin-bottom: 20px;
 	border: 0;
+}
+.veteran{
+	height: 100%;
+	width: 5%;
+	position: absolute;
+	top: 0;
+	right: 5vw;
+	margin: 2px;
+}
+.introvid{
+	width: 150vh !important;
+	height: 50vh;
+}
+.checkbx{
+	color: green;
 }
 /* Navigation */
 #menu {
@@ -87,7 +104,7 @@ hr {
 	font-weight: 700;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 4px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #ce2a36;
@@ -188,7 +205,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 10px;
 	text-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
-.intro p {
+.intro ul {
 	color: #fff;
 	font-size: 17px;
 	line-height: 28px;
@@ -299,6 +316,9 @@ header .intro-text {
 	margin-left: 0;
 }
 /* Portfolio Section */
+.d-none{
+	display: none;
+}
 #portfolio {
 	padding: 100px 0;
 	background: #f6f6f6;
